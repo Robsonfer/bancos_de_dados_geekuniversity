@@ -50,3 +50,35 @@ O grande diferencial aqui é a performance, pois por não utilizar um modelo est
 - Sistemas baseados em grafos;
 - etc.
 
+### Aula 6 - Principais bancos de dados relacionais
+
+- Oracle Database;
+- Microsoft SQL Server;
+- PostgreSQL;
+- Teradata;
+- MariaDB;
+- MySQL;
+- IBM DB2;
+- Sybase;
+- H2;
+- Microsoft Access;
+- Apache Derby;
+- Hive;
+- HyperSQL;
+- SQLite.
+
+### Aula 7 - Principais bancos de dados não relacionais
+
+- HBASE;
+- CouchDB;
+- Redis;
+- Cassandra;
+- Neo4j;
+- MongoDB;
+- RAVENDB;
+- membase;
+- riak;
+- elasticsearch;
+- Oracle Coherence;
+- Apache Solr.
+
