@@ -23,10 +23,30 @@ Ou seja, no caso do NoSQL, não quer dizer que os bancos de dados não usem SQL,
 
 **Banco de Dados Relacional**
 
-**Pontos Fortes:** Os SBGDRs - Sistemas Gerenciadores de Bancos de Dados, conforme são chamados, oferecem ao usuários processos de validação, verificação e garangias de integridade dos dados.
+**Pontos Fortes:** Os SGBDRs - Sistemas Gerenciadores de Bancos de Dados, conforme são chamados, oferecem ao usuários processos de validação, verificação e garangias de integridade dos dados.
 
 Além disso, oferencem controle de concorrência, recuperação de falhas e segurança, controle de transações, otimização de consultas, dentre outros.
 
 **Pontos Fracos:** Dificuldade em conciliar o modelo relacional com a demanda por escalabilidade cada vez mais frequente.
 
 Dificuldade em se organizar os dados em um sistema distribuído trabalhando com particionamento de dados.
+
+**Banco de Dados Não Relacional**
+
+O termo NoSQL surgiu em 1998, a partir de uma solução de banco de dados que não oferecia uma interface SQL, mas ainda assim estava baseado inicialmente na arquitetura relacional.
+
+Posteriormnente, o termo passou a representar soluções que promoviam uma alternativa ao Modelo Relacional, tornando-se uma abreviação de _Not Only SQL_ - Não apenas SQL.
+
+O grande diferencial aqui é a performance, pois por não utilizar um modelo estruturado em tabelas, consegue-se trabalhar com os dados de forma muito mais rápida.
+
+**Características em Comum:** Como são livres do modelo relacional, promovem alta disponibilidade e maior escalabilidade.
+
+**Algumas implementações oferecem:**
+
+- O particionamento e a replicação de dados;
+- Sistemas baseados em armazenamento de chave/valor;
+- Sistemas orientados a documentos;
+- Sistemas orientados a coluna;
+- Sistemas baseados em grafos;
+- etc.
+
