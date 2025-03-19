@@ -87,3 +87,7 @@ O grande diferencial aqui é a performance, pois por não utilizar um modelo est
 
 Basicamente esta aula é uma recapitulação rápida da arquitetura cliente servidor demonstrando quem e o que é o cliente, quem é e o que é o servidor e por fim, o que temos entre essas duas pontas.
 
+## Seção 3 - Modelagem de dados
+
+### Aula 11 - Modelagem conceitual, lógica e física
+
