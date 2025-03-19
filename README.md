@@ -80,5 +80,10 @@ O grande diferencial aqui é a performance, pois por não utilizar um modelo est
 - riak;
 - elasticsearch;
 - Oracle Coherence;
-- Apache Solr.
+- Apache Solr;
+- Firebase.
+
+### Aula 8 - Arquitetura cliente/servidor
+
+Basicamente esta aula é uma recapitulação rápida da arquitetura cliente servidor demonstrando quem e o que é o cliente, quem é e o que é o servidor e por fim, o que temos entre essas duas pontas.
 
