@@ -91,3 +91,24 @@ Basicamente esta aula é uma recapitulação rápida da arquitetura cliente serv
 
 ### Aula 11 - Modelagem conceitual, lógica e física
 
+Os modelos dos bancos de dados são utilizados para descrever mais detalhadamente a estrutura de um banco de dados. Portanto, os modelos servem como parte importante da documentação dos sistemas que auxiliam os desenvolvedores que trbalham no projeto, criação e implantação do sistema como também servem como documentação final para o cliente que contratou o serviço.
+
+**Modelagem Conceitual:** Este é o modelo de mais alto nível, ou seja, mais próximo dos usuários.
+
+O nível conceitual é desenvolvido com alto nível de abstração, a partir dos requisitos do sistema extraídos na fase de levantamento de requisitos feita pelos analistas de sistemas.
+
+Esse modelo pode ser desenvolvido de forma textual ou por meio de dois tipos de diagramas:
+
+- **Diagrama de entidade e relacionamento**;
+- **Diagrama de classes**.
+
+### Modelo conceitual contextual:
+
+Imagine duas tabelas como bancos de dados separados:
+
+- **Clientes**
+    - \_Dados necessários\_: 
+
+**Modelagem Lógica:**
+
+**Modelagem Física:**
