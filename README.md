@@ -116,7 +116,7 @@ Imagine duas tabelas (Entidades) como bancos de dados separados:
 
 ### Modelo conceitual Entidade Relacionamento:
 
-![Modelo Entidade Relacionamento](.\diagrama_entidade_relacionamento.JPG)
+![Modelo Entidade Relacionamento](diagrama_entidade_relacionamento.JPG)
 
 **Modelagem Lógica:**
 
