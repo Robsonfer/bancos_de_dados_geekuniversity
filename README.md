@@ -102,12 +102,21 @@ Esse modelo pode ser desenvolvido de forma textual ou por meio de dois tipos de 
 - **Diagrama de entidade e relacionamento**;
 - **Diagrama de classes**.
 
-### Modelo conceitual contextual:
+### Modelo conceitual Textual:
 
-Imagine duas tabelas como bancos de dados separados:
+Imagine duas tabelas (Entidades) como bancos de dados separados:
 
-- **Clientes**
-    - \_Dados necessários\_: 
+- **1 - Clientes**
+    - <u>Dados necessários</u>: nome completo, tipo de pessoa (física ou jurídica), endereço, bairro, cidade, estado, telefone, email, nome do contato.
+
+- **2 - Pedido**
+    - <u>Dados necessários</u>: código do produto, quantidade, código do cliente, código do vendedor
+
+**OBSERVAÇÃO:** Este formato não é o mais interessante para ser usado
+
+### Modelo conceitual Entidade Relacionamento:
+
+![Modelo Entidade Relacionamento](.\diagrama_entidade_relacionamento.JPG)
 
 **Modelagem Lógica:**
 
