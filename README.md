@@ -118,6 +118,16 @@ Imagine duas tabelas (Entidades) como bancos de dados separados:
 
 ![Modelo Entidade Relacionamento](diagrama_entidade_relacionamento.JPG)
 
+### Modelo conceitual Diagrama de Classes:
+
+![Modelo Diagrama de Classes](diagrama_classes.JPG)
+
+**OBSERVAÇÃO:** No caso do Diagrama de classes, implica que o sistema será desenvolvido usando Orientação a Objetos, mas nem todo sistema utiliza orientação a objetos para ser desenvolvido.
+
 **Modelagem Lógica:**
+
+Este modelo descreve como os dados serão armazenados no banco de dados e também seus relacionamentos.
+
+Neste modelo ainda pode ser definida a tecnologia que será utilizada para armazenagem dos dados: Bancos de Dados Relacionais ou Não Relacionais.
 
 **Modelagem Física:**
