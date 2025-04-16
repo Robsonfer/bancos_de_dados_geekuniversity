@@ -128,7 +128,7 @@ Imagine duas tabelas (Entidades) como bancos de dados separados:
 
 Este modelo descreve como os dados serão armazenados no banco de dados e também seus relacionamentos.
 
-Neste modelo ainda pode ser definida a tecnologia que será utilizada para armazenagem dos dados: Bancos de Dados Relacionais ou Não Relacionais.
+Neste modelo ainda pode ser definida a tecnologia que será utilizada para armazenagem dos dados: Bancos de Dados Relacionais ou Não Relacionais. E qual será o banco de dados.
 
 **Modelagem Física:**
 
