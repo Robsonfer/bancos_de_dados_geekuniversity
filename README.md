@@ -131,3 +131,15 @@ Este modelo descreve como os dados serão armazenados no banco de dados e també
 Neste modelo ainda pode ser definida a tecnologia que será utilizada para armazenagem dos dados: Bancos de Dados Relacionais ou Não Relacionais.
 
 **Modelagem Física:**
+
+_______________________________________________________________
+
+### Aula 44 - Configuração do MySQL no Windows
+
+Acesso usuário root:
+mysql -u root -p
+Enter password: p5bd2veq8w
+
+Acesso usuário robson:
+mysql -u robson -p
+Enter password: rf
