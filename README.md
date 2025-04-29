@@ -143,3 +143,21 @@ Enter password: p5bd2veq8w
 Acesso usuário robson:
 mysql -u robson -p
 Enter password: rf
+
+_______________________________________________________________
+
+### Aula 50 a 52 - Prática SQL - DML (Data Manipulation Language)
+
+SELECT * FROM produtos; _Seleciona todos os itens de uma tabela_
+
+INSERT INTO produtos (descricao, preco, codigo_tipo) VALUES ('Notebook', '1200', 1); _Insere itens na tabela_
+
+UPDATE produtos set codigo_tipo = 3 WHERE codigo = 6; _Altera o código da chave estrangeira para 3 no item de código 6_
+UPDATE produtos set descricao = 'Impressora Laser', preco = '700' WHERE codigo = 4; _Altera mais de um item do produto de código 4_
+**OBS: NUNCA USE UPDATE SEM WHERE!**
+
+DELETE FROM produtos WHERE codigo = 4; _Deleta uma linha completa da tabela_
+**OBS: NUNCA SE ESQUEÇA DE FILTRAR COM O WHERE QUANDO USAR O DELETE**
+
+
+_______________________________________________________________
