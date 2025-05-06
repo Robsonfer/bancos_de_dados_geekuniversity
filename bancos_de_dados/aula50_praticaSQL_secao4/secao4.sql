@@ -1,4 +1,4 @@
-## SEÇÃO 4 DML
+## SEÇÃO 4 DML - Data Manipulation Language
 
 -- select
 SELECT * FROM produtos;
@@ -20,7 +20,7 @@ UPDATE produtos set descricao = 'Impressora Laser', preco = '700' WHERE codigo =
 DELETE FROM produtos WHERE codigo = 4;
 # NUNCA SE ESQUEÇA DE FILTRAR COM O WHERE QUANDO USAR O DELETE
 
-## SEÇÃO 4 DDL
+## SEÇÃO 4 DDL - Data Definition Language
 
 -- create
 CREATE DATABASE meudb;
@@ -52,3 +52,6 @@ CREATE TABLE teste(
 );
 
 DROP TABLE teste;
+
+## SEÇÃO 4 DCL - Data Control Language
+
