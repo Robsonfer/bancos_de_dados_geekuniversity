@@ -54,4 +54,38 @@ CREATE TABLE teste(
 DROP TABLE teste;
 
 ## SEÇÃO 4 DCL - Data Control Language
+# GRANT
+# REVOKE
+
+## SEÇÃO 4 DTL - Data Transaction Language
+
+SELECT * FROM tipos_produto;
+
+-- Transaction - Inicia uma cadeia de ações:
+START TRANSACTION;
+	INSERT INTO tipos_produto (descricao) VALUES ('Acessorios');
+    INSERT INTO tipos_produto (descricao) VALUES ('Equipamentos');
+
+-- Commit - Efetiva as transactions:
+COMMIT;
+
+-- Rollback - Desfaz as transactions:
+ROLLBACK;
+# Importante: Depois do COMMIT não tem como usar o ROLLBACK!
+
+# Teste de ROLLBACK:
+START TRANSACTION;
+	INSERT INTO tipos_produto (descricao) VALUES ('Farmacia');
+    INSERT INTO tipos_produto (descricao) VALUES ('Escritorio');
+ROLLBACK;
+
+# Importante: fazer o START TRANSACTION e não fazer o COMMIT ao fazer o ROLLBACK os ids utilizados são descartados.
+# Mas ao escolher os ids descartados, dá certo:
+INSERT INTO tipos_produto (codigo, descricao) VALUES (6, 'Outros');
+INSERT INTO tipos_produto (codigo, descricao) VALUES (7, 'Diversos');
+
+# Importante: Se criarmos manualmnente um índice, supondo que criamos o índice 20, mesmo que nunca foram criados os 
+# índices 8 a 19, ao criar pelo AUTO_INCREMENT os demais índices, o SQL vai trazer o índice 21!
+
+
 
